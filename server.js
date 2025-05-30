@@ -10,7 +10,7 @@ const authRoute = require("./routers/auth");
 const postsRoute = require("./routers/posts");
 const usersRoute = require("./routers/users");
 
-const PORT = 5000;
+const PORT = process.env.PORT || 10000;
 
 // const prisma = new PrismaClient();
 
